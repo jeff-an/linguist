@@ -108,6 +108,7 @@ class PlaygroundCPopup extends React.Component<Props, State> {
     return (
       <div
         className='flex justify-center items-start w-100 h-100'
+        _test="1"
         style={{
           transition: 'background-color 0.3s ease',
           backgroundColor: hovering ? 'rgba(255,255,255,0.7)' : 'transparent',
